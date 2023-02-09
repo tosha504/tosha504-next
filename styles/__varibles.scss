@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Karma:wght@400;500;700&display=swap');
+
+$karma:'Karma', serif;
+
+//Colors
+$black: #000;
+$light-orange: #ef7d00;
+
+//break-points
+$bp1: 575px + 0.98;
+$bp2: 767px + 0.98;
+$bp3: 991px + 0.98;
+$bp4: 1199px + 0.98;
+$bp5: 1439px + 0.98;
+
+@mixin fontz($fmx,$fmn){
+    font-size: calc(#{$fmx} + (#{$fmn} * (100vw / 1900)));
+}
